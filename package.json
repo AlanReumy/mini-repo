@@ -1,0 +1,19 @@
+{
+  "name": "mini-repo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7",
+    "vitest": "^0.22.1"
+  },
+  "dependencies": {
+    "vue": "^3.2.38"
+  }
+}
