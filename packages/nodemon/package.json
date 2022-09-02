@@ -1,0 +1,18 @@
+{
+  "name": "nodemon",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./src/index.js",
+  "bin": "./src/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "@types/node": "^18.7.14",
+    "chalk": "^5.0.1",
+    "chokidar": "^3.5.3"
+  }
+}
