@@ -23,13 +23,12 @@ class Store implements StoreType {
   public action?: Action
   public mutation?: Mutation
   constructor({ state, action, mutation }: StoreType) {
-    this.state = state
+    this.state = reactive(state)
     this.action = action
     this.mutation = mutation
   }
 
   install(app: App) {
-    this.state = reactive(this.state)
     app.provide('store', this)
   }
 
@@ -37,8 +36,8 @@ class Store implements StoreType {
     this.mutation![mutationName](this.state, payload)
   }
 
-  dispatch(actionName: string, payload: any) {
-    this.action![actionName]({ commit: this.commit, state: this.state }, payload)
+  async dispatch(actionName: string, payload: any) {
+    await this.action![actionName]({ commit: this.commit.bind(this), state: this.state }, payload)
   }
 }
 
