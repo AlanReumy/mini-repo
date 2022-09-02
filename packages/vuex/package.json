@@ -1,0 +1,24 @@
+{
+  "name": "@miniRepo/vuex",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/vuex.js",
+  "files": [
+    "./dist/vuex.js"
+  ],
+  "typings": "./types/index.d.ts",
+  "exports": "./dist/vuex.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7"
+  },
+  "dependencies": {
+    "vue": "^3.2.38"
+  }
+}
