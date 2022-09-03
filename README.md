@@ -6,3 +6,4 @@
 
 - [x] vuex
 - [x] nodemon
+- [x] webpack
