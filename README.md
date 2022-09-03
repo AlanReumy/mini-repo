@@ -5,3 +5,4 @@
 ## implementation
 
 - [x] vuex
+- [x] nodemon
