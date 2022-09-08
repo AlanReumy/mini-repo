@@ -3,4 +3,5 @@
 已实现:
 
 - [x] chunk
+- [x] compact
 
