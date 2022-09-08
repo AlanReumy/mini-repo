@@ -4,4 +4,5 @@
 
 - [x] chunk
 - [x] compact
+- [x] concat
 
