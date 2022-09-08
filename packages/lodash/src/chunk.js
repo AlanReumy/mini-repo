@@ -1,6 +1,6 @@
 function chunk(arr, size = 1) {
   // not a array
-  if (Array.isArray(arr)) {
+  if (!Array.isArray(arr)) {
     throw new Error("not a array");
   }
   const resArr = [];
