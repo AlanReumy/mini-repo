@@ -1,0 +1,12 @@
+{
+  "name": "react-ssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.client.js && webpack --config webpack.server.js && node ./build/server.bundle.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
