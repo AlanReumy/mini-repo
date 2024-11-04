@@ -8,3 +8,4 @@
 - [x] nodemon
 - [x] webpack
 - [x] redux
+- [x] react-ssr
